@@ -9,6 +9,18 @@
 - Supports multiple colors
 - No dependencies beyond standard C libraries
 
+## **Usage Example**
+```c
+#include <utils/printutil.h>
+
+int main() {
+    println_red("This is red text with a newline!");
+    print_green("This is green text without a newline.");
+    println_blue(" Now it's blue with a newline.");
+    return 0;
+}
+```
+
 ## Installation
 
 ### **Option 1: System-wide Installation (Linux Only)**
@@ -45,20 +57,6 @@ Then compile:
 
 ```sh
 gcc main.c
-```
-
----
-
-### **Usage Example**
-```c
-#include <utils/printutil.h>
-
-int main() {
-    println_red("This is red text with a newline!");
-    print_green("This is green text without a newline.");
-    println_blue(" Now it's blue with a newline.");
-    return 0;
-}
 ```
 
 ---
