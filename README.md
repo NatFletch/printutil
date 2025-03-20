@@ -14,7 +14,7 @@
 ### **Option 1: System-wide Installation (Linux Only)**
 To make `printutil.h` available globally, install it in a standard include directory:
 
-Dependencies: `make`
+Dependencies: `make`, `gcc`
 
 ```sh
 make install
